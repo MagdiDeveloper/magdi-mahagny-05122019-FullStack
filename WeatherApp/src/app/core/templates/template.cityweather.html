@@ -1,0 +1,16 @@
+﻿<div class="col-md-6">
+    <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+        <div class="col p-4 d-flex flex-column position-static">
+            <h3 class="mb-0" ng-bind="model.LocalizedName"></h3>
+            <div class="mb-1 text-muted"><span ng-bind="model.Temperature | number:2"> </span><h5 ng-bind="model.WeatherText"></h5></div>
+            <div ng-switch="model.IsFavorite">
+                <div ng-switch-when="false">
+                    <a href="Javascript:;" ng-click="addToFavorite()"><span>Add to favorite</span><i class="far fa-heart"></i></a>
+                </div>
+                <div ng-switch-when="true">
+                    <a href="Javascript:;" ng-click="removeFromFavorite()"><span>Remove from favorite</span><i class="far fa-heart"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

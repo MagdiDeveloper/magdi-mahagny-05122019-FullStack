@@ -1,0 +1,9 @@
+﻿<div class="row" ng-init="fCtrl.onInit()">
+    <div class="col-sm-4">
+        <a class="article w-clearfix w-inline-block" ng-repeat="favorite in fCtrl.favorites track by $index" href="Javascript:;" ng-click="fCtrl.getFavoriteWeather(favorite)" ng-bind="favorite.LocalizedName"></a>
+    </div>
+    <div class="col-sm-8">
+        <city-weather model="fCtrl.selectedCity"></city-weather>
+    </div>
+</div>
+

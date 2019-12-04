@@ -1,0 +1,16 @@
+﻿
+<div class="row">
+    <div class="col-sm-4">
+        <form name="frmSearch" ng-submit="wCtrl.searchCity()">
+            <input name="search" ng-model="wCtrl.weatherS.query" required />
+            <span ng-show="frmSearch.search.$error.require">please write somthing for search</span>
+            <button type="submit">Search</button>
+        </form>
+        <a class="article w-clearfix w-inline-block" ng-repeat="city in wCtrl.cities track by $index" href="Javascript:;" ng-click="wCtrl.getCityWeather(city)" ng-bind="city.LocalizedName"></a>
+    </div>
+    <div class="col-sm-8">
+        <div class="col-sm-8 col-md-8 col-lg-8 pull-right">
+            <city-weather model="wCtrl.weatherS.cityWeather"></city-weather>
+        </div>
+    </div>
+</div>

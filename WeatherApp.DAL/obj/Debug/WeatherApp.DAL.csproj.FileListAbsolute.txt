@@ -1,0 +1,12 @@
+D:\Exams\WeatherApp\WeatherApp.DAL\bin\Debug\WeatherApp.DAL.dll
+D:\Exams\WeatherApp\WeatherApp.DAL\bin\Debug\WeatherApp.DAL.pdb
+D:\Exams\WeatherApp\WeatherApp.DAL\bin\Debug\WeatherApp.BE.dll
+D:\Exams\WeatherApp\WeatherApp.DAL\bin\Debug\WeatherApp.Tools.dll
+D:\Exams\WeatherApp\WeatherApp.DAL\bin\Debug\Newtonsoft.Json.dll
+D:\Exams\WeatherApp\WeatherApp.DAL\bin\Debug\WeatherApp.BE.pdb
+D:\Exams\WeatherApp\WeatherApp.DAL\bin\Debug\WeatherApp.Tools.pdb
+D:\Exams\WeatherApp\WeatherApp.DAL\bin\Debug\Newtonsoft.Json.xml
+D:\Exams\WeatherApp\WeatherApp.DAL\obj\Debug\WeatherApp.DAL.csprojAssemblyReference.cache
+D:\Exams\WeatherApp\WeatherApp.DAL\obj\Debug\WeatherApp.DAL.csproj.CopyComplete
+D:\Exams\WeatherApp\WeatherApp.DAL\obj\Debug\WeatherApp.DAL.dll
+D:\Exams\WeatherApp\WeatherApp.DAL\obj\Debug\WeatherApp.DAL.pdb
